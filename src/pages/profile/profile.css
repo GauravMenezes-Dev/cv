@@ -2,9 +2,24 @@
     padding: 5.5em;
     display: flex;
     align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    flex-direction: column;
+}
+
+.jumbotron-fluid h1{
+    font-size: 50px;
 }
 
 .intro-container{
-    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(to top, rgb(53, 53, 53),black);
     color: white;
+}
+
+.data-container{
+    background-color: white;
+    color: black;
+    border-radius: 0.25em;
+    display: inherit;
+    height: 25vh;
+    width: 75vh;
 }

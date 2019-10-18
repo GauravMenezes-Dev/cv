@@ -10,6 +10,9 @@ const Profile = () => (
           <h1 className="name">{profile_data.name}</h1>
           <p className="descriptor">{profile_data.description}</p>
         </Container>
+        <Container className="data-container">
+            
+        </Container>
      </Jumbotron>
 );
 

@@ -64,8 +64,9 @@ body {
 /* General sidebar styles */
 .bm-menu {
   background: #2c2b2b;
-  padding: 2.5em 1.5em 0;
+  padding: 2.5em 1em 0;
   font-size: 1.15em;
+  font-family: 'Work Sans', sans-serif;
 }
 
 /* Morph shape necessary with bubble or elastic */

@@ -1,0 +1,10 @@
+.jumbotron-fluid{
+    padding: 5.5em;
+    display: flex;
+    align-items: center;
+}
+
+.intro-container{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}

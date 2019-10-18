@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Route} from 'react-router-dom';
 import './App.css';
+import Profile from './pages/profile/profile.components';
+import Skills from './pages/skills.components';
+import Education from './pages/education.components';
+import PrevExp from './pages/prev_proj.components';
+import SideDrawer from './components/sidedrawer/sidedrawer.components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="App">
+      <SideDrawer pageWrapId="page-wrap" outerContainerId="App"/>
+      <div id="page-wrap">
+        <Route exact path='/' component={Profile}/>
+        <Route path='/skills' component={Skills}/>
+        <Route path='/education' component={Education}/>
+        <Route path='/prev_projects' component={PrevExp}/>
+      </div>
     </div>
   );
 }

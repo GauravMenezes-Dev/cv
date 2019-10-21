@@ -6,7 +6,7 @@ import './profile.css';
 
 const Profile = () => (
      <Jumbotron fluid className="intro-container">
-       <Container>
+       <Container className="intro-sec">
           <h1 className="name">{profile_data.name}</h1>
           <p className="descriptor">{profile_data.description}</p>
         </Container>

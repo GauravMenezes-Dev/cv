@@ -15,7 +15,12 @@
     color: white;
 }
 
+.intro-sec{
+    padding: 1.25em;
+}
+
 .data-container{
+    padding: 3.75em;
     background-color: white;
     color: black;
     border-radius: 0.25em;

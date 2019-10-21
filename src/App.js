@@ -2,9 +2,9 @@ import React from 'react';
 import {Route} from 'react-router-dom';
 import './App.css';
 import Profile from './pages/profile/profile.components';
-import Skills from './pages/skills.components';
-import Education from './pages/education.components';
-import PrevExp from './pages/prev_proj.components';
+import Skills from './pages/skills/skills.components';
+import Education from './pages/education/education.components';
+import PrevExp from './pages/previous/prev_proj.components';
 import SideDrawer from './components/sidedrawer/sidedrawer.components';
 
 function App() {

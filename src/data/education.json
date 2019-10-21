@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "board": "ICSE",
+            "school": "St.Xavier's Collegiate School",
+            "percentage": "89.75%",
+            "cgpa": "Not Applicable"
+        },
+        {
+            "id": 2,
+            "board": "ISC",
+            "school": "St.Xavier's Collegiate School",
+            "percentage": "87.75%",
+            "cgpa": "Not Applicable"
+        },
+        {
+            "id": 3,
+            "board": "B.Tech",
+            "school": "Heritage Institute Of Technology",
+            "percentage": "75%",
+            "cgpa": "7.5"
+        }
+    ]
+}

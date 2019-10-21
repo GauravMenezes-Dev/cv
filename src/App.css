@@ -7,14 +7,15 @@ body {
   font-family: sans-serif;
   height: 100vh;
   display: flex;
+  font-family: 'Work Sans', sans-serif;
+  width: 100vw;
   /* Give app full page to work with */
 }
 
 #page-wrap {
+  width: 100%;
   /* Prevent sidebar from showing a scrollbar on page */
-  width: 100vw;
-  display: inherit;
-  overflow: auto;
+  overflow: scroll;
 }
 
 /* Individual item */

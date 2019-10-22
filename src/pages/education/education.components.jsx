@@ -6,7 +6,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import './education.css';
-import CardDeck from 'react-bootstrap/CardDeck'
+import CardColumns from 'react-bootstrap/CardColumns';
 
 const Education = () => (
   <Container className="education" fluid>
@@ -19,7 +19,7 @@ const Education = () => (
         <h1>Boards/Degrees: </h1>
       </Row>
       <hr />
-      <CardDeck>
+      <CardColumns>
         {
           edu_data.data.map(item =>(
             <Card key={item.id}>
@@ -39,7 +39,7 @@ const Education = () => (
             </Card>
           ))
         }
-      </CardDeck>
+      </CardColumns>
     </Container>
 </Container>
 );

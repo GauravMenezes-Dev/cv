@@ -1,0 +1,57 @@
+{
+    "skill_descp": "I'm always trying out different technologies when they come out, to figure out ways to use it!",
+    "skills" : [
+        {
+            "id" : 1,
+            "name" : "React 16.10.2",
+            "useCase": ""
+        },
+        {
+            "id": 2,
+            "name" : "Redux 3.7.2",
+            "useCase": ""
+        },
+        {
+            "id" : 3,
+            "name" : "Enzyme 3.10.0",
+            "useCase": ""
+        },
+        {
+            "id" : 4,
+            "name" : "Java 1.8",
+            "useCase": ""
+        },
+        {
+            "id" : 5,
+            "name": "SQL",
+            "useCase": ""
+        },
+        {
+            "id" : 6,
+            "name" : "Python 3.7",
+            "useCase": ""
+        },
+        {
+            "id" : 7,
+            "name":"Django 2.2.3",
+            "useCase": ""
+        },
+        {
+            "id" : 8,
+            "name":"Flutter",
+            "useCase": ""
+        }
+    ],
+    "learning": [
+        {
+            "id" : 1,
+            "name":"Angular 8",
+            "useCase": ""
+        },
+        {
+            "id" : 2,
+            "name":"Ionic (React and Angular now have it)",
+            "useCase": ""
+        }
+    ]
+}

@@ -9,7 +9,7 @@ import './profile.css';
 const Profile = () => (
     <Container className="profile" fluid>
       <Jumbotron fluid>
-        <h1 className="name">Hi! I'm {profile_data.name}</h1>
+        <h1 className="name">Hi! I'm {profile_data.name}!</h1>
         <p className="descriptor">{profile_data.description}</p>
       </Jumbotron>
       <Container className="data-container" fluid>

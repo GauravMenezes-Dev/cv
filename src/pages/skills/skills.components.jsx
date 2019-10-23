@@ -34,6 +34,26 @@ const Skills = () => {
               }
               </CardColumns>
             </Card.Body>
+          </Card>
+          <hr></hr>
+          <Card>
+            <Card.Header>
+              <Card.Title>Skills I'm currently learning: </Card.Title>
+            </Card.Header>
+            <Card.Body>
+              <CardColumns>
+              {
+                skill_data.learning.map(skill => (
+                  <Card key={skill.id}>
+                    <Card.Title>{skill.name}</Card.Title>
+                    <Card.Body>
+                      {skill.useCase}
+                    </Card.Body>
+                  </Card>
+                ))
+              }
+              </CardColumns>
+            </Card.Body>
           </Card>          
         </Container>
       </Container>
